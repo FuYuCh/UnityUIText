@@ -8,6 +8,7 @@ public class HP : MonoBehaviour
     public Text HPText;  //宣告Text物件
 
     public float hp;
+    public float sp;
     //程式一開就會執行的事件
     void Start()
     {
@@ -17,14 +18,14 @@ public class HP : MonoBehaviour
     {
         
     }
-    //-HP的方法
+    //-HP的回血方法
     public void Sleep()  
     {
         hp += 10;
         DisplayHP();
     }
 
-    //-HP的方法
+    //-HP的攻擊方法
     public void BeAttacked()
     {
         hp -= 10.6f;
