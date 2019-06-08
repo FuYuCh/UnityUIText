@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HP : MonoBehaviour
 {
-    public Text HPText;  //宣告Text物件
+    public Text HPText;  //建立Text物件
 
     public float hp;
     public float sp;
